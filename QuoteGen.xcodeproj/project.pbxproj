@@ -15,6 +15,8 @@
 		145FE8B816696B0D00A60A54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 145FE8B716696B0D00A60A54 /* AppDelegate.m */; };
 		145FE8BB16696B0D00A60A54 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145FE8B916696B0D00A60A54 /* MainStoryboard.storyboard */; };
 		145FE8BE16696B0D00A60A54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145FE8BD16696B0D00A60A54 /* ViewController.m */; };
+		14F9C237169782E700E21572 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F9C236169782E700E21572 /* Default-568h@2x.png */; };
+		14F9C239169B5D1100E21572 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F9C238169B5D1100E21572 /* quotes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		145FE8A716696B0D00A60A54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		145FE8A916696B0D00A60A54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		145FE8AB16696B0D00A60A54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		145FE8AF16696B0D00A60A54 /* QuoteGen-Info.plist */ = {isa = PBXFileReference; path = "QuoteGen-Info.plist"; sourceTree = "<group>"; };
+		145FE8AF16696B0D00A60A54 /* QuoteGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuoteGen-Info.plist"; sourceTree = "<group>"; };
 		145FE8B116696B0D00A60A54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		145FE8B316696B0D00A60A54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		145FE8B516696B0D00A60A54 /* QuoteGen-Prefix.pch */ = {isa = PBXFileReference; path = "QuoteGen-Prefix.pch"; sourceTree = "<group>"; };
-		145FE8B616696B0D00A60A54 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		145FE8B516696B0D00A60A54 /* QuoteGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuoteGen-Prefix.pch"; sourceTree = "<group>"; };
+		145FE8B616696B0D00A60A54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		145FE8B716696B0D00A60A54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		145FE8BA16696B0D00A60A54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		145FE8BC16696B0D00A60A54 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		145FE8BC16696B0D00A60A54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		145FE8BD16696B0D00A60A54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F9C236169782E700E21572 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14F9C238169B5D1100E21572 /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		145FE89816696B0C00A60A54 = {
 			isa = PBXGroup;
 			children = (
+				14F9C236169782E700E21572 /* Default-568h@2x.png */,
 				145FE8AD16696B0D00A60A54 /* QuoteGen */,
 				145FE8A616696B0D00A60A54 /* Frameworks */,
 				145FE8A416696B0D00A60A54 /* Products */,
@@ -83,6 +88,7 @@
 				145FE8BC16696B0D00A60A54 /* ViewController.h */,
 				145FE8BD16696B0D00A60A54 /* ViewController.m */,
 				145FE8AE16696B0D00A60A54 /* Supporting Files */,
+				14F9C238169B5D1100E21572 /* quotes.plist */,
 			);
 			path = QuoteGen;
 			sourceTree = "<group>";
@@ -124,7 +130,7 @@
 		145FE89A16696B0C00A60A54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = FedEx;
 			};
 			buildConfigurationList = 145FE89D16696B0C00A60A54 /* Build configuration list for PBXProject "QuoteGen" */;
@@ -151,6 +157,8 @@
 			files = (
 				145FE8B216696B0D00A60A54 /* InfoPlist.strings in Resources */,
 				145FE8BB16696B0D00A60A54 /* MainStoryboard.storyboard in Resources */,
+				14F9C237169782E700E21572 /* Default-568h@2x.png in Resources */,
+				14F9C239169B5D1100E21572 /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				145FE8C316696B0D00A60A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
